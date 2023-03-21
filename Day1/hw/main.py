@@ -6,13 +6,18 @@
 
 # bool (boolean): Sadece iki değer alabilen bir veri tipidir: True (doğru) ve False (yanlış).
 
-# list: Birden fazla değeri aynı anda tutmak için kullanılan veri tipidir. Değerler virgülle ayrılarak köşeli parantez içinde gösterilir. Örneğin, [1, 2, 3], ["elma", "armut", "portakal"] gibi.
+# list: Birden fazla değeri aynı anda tutmak için kullanılan veri tipidir. Değerler virgülle ayrılarak 
+#       köşeli parantez içinde gösterilir. Örneğin, [1, 2, 3], ["elma", "armut", "portakal"] gibi.
 
-# tuple: Listelerle benzer bir yapıda olup, ancak değiştirilemez (immutable) bir veri tipidir. Parantez içinde gösterilir. Örneğin, (1, 2, 3), ("elma", "armut", "portakal") gibi.
+# tuple: Listelerle benzer bir yapıda olup, ancak değiştirilemez (immutable) bir veri tipidir. Parantez içinde gösterilir. 
+#        Örneğin, (1, 2, 3), ("elma", "armut", "portakal") gibi.
 
-# set: Birçok benzersiz (unique) elemanın aynı anda saklanmasını sağlayan bir veri tipidir. Elemanlar süslü parantez içinde gösterilir. Örneğin, {1, 2, 3}, {"elma", "armut", "portakal"} gibi.
+# set: Birçok benzersiz (unique) elemanın aynı anda saklanmasını sağlayan bir veri tipidir. 
+#      Elemanlar süslü parantez içinde gösterilir. Örneğin, {1, 2, 3}, {"elma", "armut", "portakal"} gibi.
 
-# dict (dictionary): Anahtar-değer (key-value) çiftlerinin saklanmasını sağlayan bir veri tipidir. Anahtarlar ve değerler iki nokta üst üste işaretiyle ayrılır ve çift tırnak içinde gösterilir. Örneğin, {"isim": "Ahmet", "yaş": 25} gibi.
+# dict (dictionary): Anahtar-değer (key-value) çiftlerinin saklanmasını sağlayan bir veri tipidir. 
+#                    Anahtarlar ve değerler iki nokta üst üste işaretiyle ayrılır ve çift tırnak içinde gösterilir.
+#                    Örneğin, {"isim": "Ahmet", "yaş": 25} gibi.
 
 # ******************************************
 
