@@ -32,7 +32,7 @@ class Test_DemoClass:
     def test_demo2(self):
         assert True
     
-    @pytest.mark.paramatrize("username, password", [("1", "1"), ("kullaniciadim", "sifrem")])
+    @pytest.mark.parametrize("username, password", [("1", "1"), ("kullaniciadim", "sifrem")])
     def test_invalid_login(self, username, password):
         self.waitForElementVisible((By.ID,"user-name"))
         usernameInput = self.driver.find_element(By.ID, "user-name")
